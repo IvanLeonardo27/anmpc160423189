@@ -7,6 +7,10 @@ android {
     namespace = "com.nmpc.projectgit"
     compileSdk = 36
 
+    buildFeatures{
+        viewBinding = true
+    }
+
     defaultConfig {
         applicationId = "com.nmpc.projectgit"
         minSdk = 24
